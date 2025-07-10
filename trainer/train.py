@@ -280,3 +280,73 @@ def train(opt, show_number = 2, amp=False):
             print('end the training')
             sys.exit()
         i += 1
+
+
+
+
+import yaml
+import argparse
+
+def get_opt():
+    # Load the configuration from the YAML file
+    with open('config_files/en_filtered_config.yaml', 'r') as file:
+        config = yaml.safe_load(file)
+
+    # Initialize argparse
+    parser = argparse.ArgumentParser()
+
+    # Add arguments from the YAML config
+    parser.add_argument('--train_data', type=str, default=config['train_data'], help='Path to training data')
+    parser.add_argument('--valid_data', type=str, default=config['valid_data'], help='Path to validation data')
+    parser.add_argument('--select_data', type=str, default=config['select_data'], help='Sub-directory within the training data')
+    parser.add_argument('--batch_size', type=int, default=config['batch_size'], help='Batch size')
+    parser.add_argument('--num_iter', type=int, default=config['num_iter'], help='Number of iterations to train')
+    parser.add_argument('--workers', type=int, default=config['workers'], help='Number of worker threads for data loading')
+    parser.add_argument('--valInterval', type=int, default=config['valInterval'], help='Validation interval')
+    parser.add_argument('--saved_model', type=str, default=config['saved_model'], help='Path to pre-trained model')
+    parser.add_argument('--FT', type=bool, default=config['FT'], help='Whether to perform fine-tuning')
+    parser.add_argument('--optim', type=bool, default=config['optim'], help='Optimizer setting (default is Adadelta)')
+    parser.add_argument('--lr', type=float, default=config['lr'], help='Learning rate')
+    parser.add_argument('--beta1', type=float, default=config['beta1'], help='Beta1 parameter for Adam optimizer')
+    parser.add_argument('--rho', type=float, default=config['rho'], help='Rho parameter for Adadelta optimizer')
+    parser.add_argument('--eps', type=float, default=config['eps'], help='Epsilon for optimizer')
+    parser.add_argument('--grad_clip', type=float, default=config['grad_clip'], help='Gradient clipping value')
+    parser.add_argument('--contrast_adjust', type=bool, default=config['contrast_adjust'], help='Whether to apply contrast adjustment')
+    parser.add_argument('--data_filtering_off', type=bool, default=config['data_filtering_off'], help='Disable data filtering')
+    parser.add_argument('--batch_ratio', type=str, default=config['batch_ratio'], help='Batch ratio for dataset')
+    parser.add_argument('--total_data_usage_ratio', type=float, default=config['total_data_usage_ratio'], help='Total data usage ratio (0 to 1)')
+    parser.add_argument('--batch_max_length', type=int, default=config['batch_max_length'], help='Maximum length of text labels')
+    parser.add_argument('--imgH', type=int, default=config['imgH'], help='Image height')
+    parser.add_argument('--imgW', type=int, default=config['imgW'], help='Image width')
+    parser.add_argument('--rgb', type=bool, default=config['rgb'], help='Whether to use RGB images')
+    parser.add_argument('--sensitive', type=bool, default=config['sensitive'], help='Whether to apply case sensitivity')
+    parser.add_argument('--PAD', type=bool, default=config['PAD'], help='Whether to pad images')
+    
+    # Model architecture parameters
+    parser.add_argument('--Transformation', type=str, default=config['Transformation'], choices=['None', 'TPS', 'Warp'], help='Transformation method')
+    parser.add_argument('--FeatureExtraction', type=str, default=config['FeatureExtraction'], choices=['VGG', 'ResNet'], help='Feature extraction method')
+    parser.add_argument('--SequenceModeling', type=str, default=config['SequenceModeling'], choices=['None', 'BiLSTM', 'Transformer'], help='Sequence modeling method')
+    parser.add_argument('--Prediction', type=str, default=config['Prediction'], choices=['CTC', 'Attn'], help='Prediction method')
+    parser.add_argument('--num_fiducial', type=int, default=config['num_fiducial'], help='Number of fiducial points')
+    parser.add_argument('--input_channel', type=int, default=config['input_channel'], help='Number of input channels (1 for grayscale, 3 for RGB)')
+    parser.add_argument('--output_channel', type=int, default=config['output_channel'], help='Output channels for feature extraction')
+    parser.add_argument('--hidden_size', type=int, default=config['hidden_size'], help='Hidden size of the model')
+    parser.add_argument('--decode', type=str, default=config['decode'], choices=['greedy', 'beamsearch'], help='Decoding method')
+    parser.add_argument('--new_prediction', type=bool, default=config['new_prediction'], help='Whether to use a new prediction module')
+    parser.add_argument('--freeze_FeatureFxtraction', type=bool, default=config['freeze_FeatureFxtraction'], help='Freeze the feature extraction layers')
+    parser.add_argument('--freeze_SequenceModeling', type=bool, default=config['freeze_SequenceModeling'], help='Freeze the sequence modeling layers')
+
+    # ** Experiment name **
+    parser.add_argument('--experiment_name', type=str, default=config['experiment_name'], help='Name of the experiment for saving model')
+
+    # ** lang_char as character **
+    parser.add_argument('--character', type=str, default=config['lang_char'], help='Characters to recognize')
+
+    # Return parsed arguments
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    opt = get_opt()  # Get the parsed arguments
+    print(opt)
+
+    train(opt)  # Call the train function with the parsed options

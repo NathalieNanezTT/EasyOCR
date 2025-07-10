@@ -1,13 +1,13 @@
 number: '0123456789'
 symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'en_filtered'
+lang_char: '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ#$% \n,.'
+experiment_name: 'receipt'
 train_data: 'all_data'
-valid_data: 'all_data/en_val'
+valid_data: 'all_data/dataset'
 manualSeed: 1111
-workers: 6
-batch_size: 32 #32
-num_iter: 300000
+workers: 1
+batch_size: 3 #32
+num_iter: 3000
 valInterval: 20000
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
@@ -18,10 +18,10 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'en_train_filtered' # this is dataset folder in train_data
+select_data: 'dataset' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
-batch_max_length: 34 
+batch_max_length: 150 
 imgH: 64
 imgW: 600
 rgb: False
@@ -29,7 +29,7 @@ contrast_adjust: False
 sensitive: True
 PAD: True
 contrast_adjust: 0.0
-data_filtering_off: False
+data_filtering_off: True
 # Model Architecture
 Transformation: 'None'
 FeatureExtraction: 'VGG'

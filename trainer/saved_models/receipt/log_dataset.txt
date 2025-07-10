@@ -1,0 +1,693 @@
+--------------------------------------------------------------------------------
+dataset_root: trainer/all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root: trainer/all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: trainer/all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+dataset_root: ../all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 16 x 1.0 (batch_ratio) = 16
+--------------------------------------------------------------------------------
+Total_batch_size: 16 = 16
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: /
+sub-directory:	/dataset	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['en_train_filtered']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 0
+num total samples of dataset: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 1
+num total samples of dataset: 1 x 1.0 (total_data_usage_ratio) = 1
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 1 x 1.0 (batch_ratio) = 1
+--------------------------------------------------------------------------------
+Total_batch_size: 1 = 1
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 3 x 1.0 (batch_ratio) = 3
+--------------------------------------------------------------------------------
+Total_batch_size: 3 = 3
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 3 x 1.0 (batch_ratio) = 3
+--------------------------------------------------------------------------------
+Total_batch_size: 3 = 3
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 3 x 1.0 (batch_ratio) = 3
+--------------------------------------------------------------------------------
+Total_batch_size: 3 = 3
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: dataset
+sub-directory:	/dataset	 num samples: 3
+num total samples of dataset: 3 x 1.0 (total_data_usage_ratio) = 3
+num samples of dataset per batch: 3 x 1.0 (batch_ratio) = 3
+--------------------------------------------------------------------------------
+Total_batch_size: 3 = 3
+--------------------------------------------------------------------------------
+dataset_root:    all_data/dataset	 dataset: /
+sub-directory:	/.	 num samples: 3
+--------------------------------------------------------------------------------
